@@ -1,0 +1,57 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template: auto 1fr auto / auto 1fr auto
+  }
+  
+  // etc
+  
+  header {
+    background: wheat;
+    padding: 2rem;
+    grid-column: 1 / 4;
+    text-align: left;
+    font-family: ;
+  }
+  
+  .left-sidebar {
+    background: rgb(105,105,105);
+    grid-column: 1 / 2;
+  }
+  
+  main {
+    background: RGB: (66,103,178);
+    grid-column: 2 / 3;
+  }
+  
+  .right-sidebar {
+    background: rgb(105,105,105);
+    grid-column: 3 / 4;
+  }
+  
+  footer {
+    background: wheat;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 4;
+  }
+  
+  body {
+    font-family: system-ui, sans-serif;
+  }
+  
+  .left-sidebar,
+  .right-sidebar {
+    padding: 1rem;
+  }
+
+  .deletetext {
+      margin-top: 1em;
+      margin-left: 9em;
+      text-decoration: underline;
+  }
+  .deletepost {
+      margin-top: 2em;
+      margin-left: 9em;
+      text-decoration: underline;
+  }
