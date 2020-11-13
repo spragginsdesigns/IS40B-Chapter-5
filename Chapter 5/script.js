@@ -19,6 +19,5 @@ function deletePost (event) {
     }
 }
 
-window.addEventListener("load", createEventListener, false); 
 
 
